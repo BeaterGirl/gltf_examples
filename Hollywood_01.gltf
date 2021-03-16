@@ -1,0 +1,162 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "asiento_Baked.001",
+            "translation" : [
+                0,
+                -0.07687412202358246,
+                0.10170777142047882
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "MergedBake_Bake1",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 0.2800002098083496
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.008",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "MergedBake_Bake1_pbr_normal",
+            "uri" : "MergedBake_Bake1_pbr_normal.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "MergedBake_Bake1_pbr_diffuse",
+            "uri" : "MergedBake_Bake1_pbr_diffuse.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "MergedBake_Bake1_pbr_roughness",
+            "uri" : "MergedBake_Bake1_pbr_roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 7750,
+            "max" : [
+                0.3392954468727112,
+                0.5082171559333801,
+                0.22095106542110443
+            ],
+            "min" : [
+                -0.35721173882484436,
+                -0.31676095724105835,
+                -0.4107290506362915
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 7750,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 7750,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 42150,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 93000,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 93000,
+            "byteOffset" : 93000
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 62000,
+            "byteOffset" : 186000
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 84300,
+            "byteOffset" : 248000
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 332300,
+            "uri" : "Hollywood_01.bin"
+        }
+    ]
+}
